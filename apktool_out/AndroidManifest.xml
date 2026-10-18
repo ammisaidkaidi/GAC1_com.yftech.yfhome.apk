@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="28" android:compileSdkVersionCodename="9" android:sharedUserId="android.uid.system" package="com.yftech.yfhome" platformBuildVersionCode="1" platformBuildVersionName="1.0">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.yftech.permission.media.service"/>
+    <uses-permission android:name="com.yftech.permission.service.main.audio"/>
+    <uses-permission android:name="com.yftech.permission.service.main.screen"/>
+    <uses-permission android:name="com.yftech.permission.service.main.input"/>
+    <uses-permission android:name="com.yftech.permission.service.main.audio.effect"/>
+    <uses-permission android:name="com.yftech.permission.service.main.data"/>
+    <uses-permission android:name="com.yftech.permission.service.bluetooth"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="beantechs.permission.DATATRACK"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="com.yftech.permission.service.vehicle.COMMON"/>
+    <uses-permission android:name="com.yftech.permission.service.transfer.phonelink"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:directBootAware="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.yftech.yfhome.utils.HomeApplication" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+        <uses-library android:name="com.yftech.vehicle.internal.adapter"/>
+        <uses-library android:name="com.yftech.vehicle.sdk"/>
+        <uses-library android:name="com.yftech.car.framework"/>
+        <activity android:configChanges="mcc|mnc|touchscreen|keyboard|keyboardHidden|navigation|uiMode|screenSize|layoutDirection" android:directBootAware="true" android:launchMode="singleInstance" android:name="com.yftech.yfhome.view.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.yftech.intent.action.start.launcher"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

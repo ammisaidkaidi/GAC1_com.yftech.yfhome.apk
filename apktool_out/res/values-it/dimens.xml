@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fast_vehicle_max_width">340.0dp</dimen>
+    <dimen name="fast_vehicle_text_size">26.0sp</dimen>
+    <dimen name="fast_warn_margin_start">880.0px</dimen>
+    <dimen name="rear_view_tv_height">110.0px</dimen>
+    <dimen name="rear_view_tv_size">24.0px</dimen>
+    <dimen name="trunk_st_tv_size">26.0px</dimen>
+</resources>

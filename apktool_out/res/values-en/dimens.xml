@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fast_warn_margin_start">880.0px</dimen>
+    <dimen name="rear_door_margin_end">176.0px</dimen>
+    <dimen name="rear_view_tv_height">100.0px</dimen>
+    <dimen name="rear_view_tv_size">28.0px</dimen>
+    <dimen name="trunk_st_tv_size">28.0px</dimen>
+</resources>

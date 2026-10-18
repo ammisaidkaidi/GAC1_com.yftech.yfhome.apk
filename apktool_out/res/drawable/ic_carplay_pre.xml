@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/home_icon_carplay_sel" />
+    <item android:drawable="@drawable/desktop_icon_press_mask" />
+</layer-list>

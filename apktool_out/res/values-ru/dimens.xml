@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="rear_view_tv_height">110.0px</dimen>
+    <dimen name="rear_view_tv_size">24.0px</dimen>
+    <dimen name="trunk_st_tv_size">26.0px</dimen>
+</resources>
